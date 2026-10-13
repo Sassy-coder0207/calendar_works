@@ -6,9 +6,9 @@ function Calendar() {
     const navigate = useNavigate()
     const [events, setEvents] = useState([])
 
-    // 現在表示している「年」と「月」を管理する状態（初期値は2026年8月）
+    // 現在表示している「年」と「月」を管理する状態（初期値は2026年10月）
     const [currentYear, setCurrentYear] = useState(2026)
-    const [currentMonth, setCurrentMonth] = useState(8)
+    const [currentMonth, setCurrentMonth] = useState(10)
 
     // データベースからすべての予定を取得する
     const fetchEvents = useCallback(async () => {
