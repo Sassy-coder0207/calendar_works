@@ -9,8 +9,8 @@ function Login() {
     const handleLogin = (e) => {
         e.preventDefault();
 
-        // ユーザー名 calender、パスワード 1234 でログイン
-        if (username === 'calender' && password === '1234') {
+        // ユーザー名 calendar、パスワード 1234 でログイン
+        if (username === 'calendar' && password === '1234') {
             localStorage.setItem('isLoggedIn', 'true');
             navigate('/calendar');
         } else {
